@@ -1,0 +1,9 @@
+[Unit]
+Description=activate ooni.service every 5 min
+
+[Timer]
+OnUnitInactiveSec=5m
+
+[Install]
+WantedBy=timers.target
+
